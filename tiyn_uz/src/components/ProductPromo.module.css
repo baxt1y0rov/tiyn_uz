@@ -1,5 +1,5 @@
 .promo {
-  background-color: #e8f4ff;
+  background-color: #f8edfc;
   border-radius: 12px;
   padding: 2rem;
   margin: 4rem 0;
@@ -18,9 +18,11 @@
 .content h2 {
   color: var(--text-color);
   font-size: 1rem;
+
 }
 
 .content h3 {
+  
   font-size: 2rem;
   line-height: 1.2;
 }
@@ -28,6 +30,7 @@
 .stats {
   display: flex;
   gap: 1rem;
+  color:#4a9a47;
 }
 
 .stat {
@@ -51,7 +54,7 @@
 }
 
 .buyBtn {
-  background-color: var(--primary-color);
+  background-color: #5a297d;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 4px;
@@ -60,8 +63,23 @@
 }
 
 .image {
-  display: flex;
-  justify-content: center;
+  margin-left: 200px;
+  width: 300px;
+}
+@media only screen and (max-width: 1000px){
+  .image{
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .image{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 700px){
+  .image{
+    display: none;
+  }
 }
 
 .image img {

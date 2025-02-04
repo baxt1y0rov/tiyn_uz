@@ -2,10 +2,10 @@ import styles from "./Categories.module.css"
 
 export default function Categories() {
   const categories = [
-    { name: "Furniture", image: "/furniture.jpg" },
-    { name: "Hand Bag", image: "/handbag.jpg" },
-    { name: "Sneakers", image: "/sneakers.jpg" },
-    { name: "Gadgets", image: "/gadgets.jpg" },
+    { name: "Furniture", image: "/furniture.png" },
+    { name: "Hand Bag", image: "/handbag.png" },
+    { name: "Sneakers", image: "/sneakers.png" },
+    { name: "Gadgets", image: "/gadgets.png" },
   ]
 
   return (

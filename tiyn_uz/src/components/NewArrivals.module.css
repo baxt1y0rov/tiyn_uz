@@ -22,7 +22,7 @@
   top: 0;
   height: 100%;
   width: 4px;
-  background-color: var(--primary-color);
+  background-color:#4a9a47;
   border-radius: 2px;
 }
 
@@ -76,12 +76,12 @@
 }
 
 .rating {
-  color: #ffd700;
+  color: #4a9a47;
   margin-bottom: 0.5rem;
 }
 
 .price {
   font-weight: bold;
-  color: var(--primary-color);
+  color: #5b2b78;
 }
 

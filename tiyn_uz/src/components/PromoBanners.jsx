@@ -9,7 +9,7 @@ export default function PromoBanners() {
           <h3>The Best Smart Watch Under Budget</h3>
           <button>Shop Now</button>
         </div>
-        <img src="/smartwatch.png" alt="Smart Watch" />
+        <img style={{width:170,marginBottom:17}}src="/smartwatch.webp" alt="Smart Watch" />
       </div>
 
       <div className={styles.banner}>
@@ -18,7 +18,7 @@ export default function PromoBanners() {
           <h3>Meer Your New Trending Furniture Design</h3>
           <button>Read Now</button>
         </div>
-        <img src="/furniture.png" alt="Furniture" />
+        <img src="/furniturenobg.png" alt="Furniture" />
       </div>
     </section>
   )

@@ -7,7 +7,7 @@ export default function Header() {
       <div className={styles.container}>
         <div className={styles.logo}>
           <img style={{width:50}} src="./ logo.png" alt="tiyn" />
-          <span className={styles.tiynuz}>TiynUz</span>
+          <span className={styles.tiynuz}>Tiyn</span>
         </div>
 
         <nav className={styles.nav}>

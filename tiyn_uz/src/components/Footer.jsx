@@ -24,7 +24,7 @@ export default function Footer() {
 
         <div className={styles.main}>
           <div className={styles.company}>
-            <h3>VirtualMall</h3>
+            <h3>Tiyn.Uz</h3>
             <p>Subscribe</p>
             <div className={styles.subscribe}>
               <input type="email" placeholder="Enter your email" />
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>© Copyright 2024. VirtualMall 2024 All right reserved</p>
+          <p>© Copyright 2024. Tiyn.Uz 2024 All right reserved</p>
           <div className={styles.social}>
             <a href="#">
               <img src="/facebook.svg" alt="Facebook" />

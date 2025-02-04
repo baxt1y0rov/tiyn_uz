@@ -6,25 +6,25 @@ export default function NewArrivals() {
       name: "Mini wireless Earphone",
       rating: 5,
       price: "$29.99",
-      image: "/earphone1.jpg",
+      image: "/gadgets.png",
     },
     {
       name: "Mini wireless Earphone",
       rating: 5,
       price: "$34.99",
-      image: "/earphone2.jpg",
+      image: "/gadgets.png",
     },
     {
       name: "Mini wireless Earphone",
       rating: 4,
       price: "$24.99",
-      image: "/earphone3.jpg",
+      image: "/gadgets.png",
     },
     {
       name: "Mini wireless Earphone",
       rating: 5,
       price: "$39.99",
-      image: "/earphone4.jpg",
+      image: "/gadgets.png",
     },
   ]
 
