@@ -1,0 +1,23 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: #7b2bae;
+  margin-bottom: 0.5rem;
+}
+
+.stat p {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
