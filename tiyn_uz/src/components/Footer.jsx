@@ -1,4 +1,8 @@
 import styles from "./Footer.module.css"
+import { FaTruckFast } from "react-icons/fa6";
+import { MdOutlineSupportAgent } from "react-icons/md";
+import { LuStamp } from "react-icons/lu";
+import { FaTelegramPlane, FaInstagram, FaFacebookSquare } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -6,17 +10,17 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.top}>
           <div className={styles.service}>
-            <img src="/delivery-icon.svg" alt="Delivery" />
+           <FaTruckFast className={styles.facilityicon}/>
             <h4>Free And Fast Delivery</h4>
             <p>Free delivery for all orders over $140</p>
           </div>
           <div className={styles.service}>
-            <img src="/support-icon.svg" alt="Support" />
+            <MdOutlineSupportAgent className={styles.facilityicon}/>
             <h4>24/7 Customer Service</h4>
             <p>Friendly 24/7 Customer Support</p>
           </div>
           <div className={styles.service}>
-            <img src="/guarantee-icon.svg" alt="Guarantee" />
+            <LuStamp className={styles.facilityicon}/>
             <h4>Money Back Guarantee</h4>
             <p>We Return Money Within 30 Days</p>
           </div>
@@ -64,7 +68,7 @@ export default function Footer() {
 
             <div>
               <h4>Download App</h4>
-              <img src="/qr-code.png" alt="QR Code" className={styles.qr} />
+              <img src="/qr.png" alt="QR Code" className={styles.qr} />
             </div>
           </div>
         </div>
@@ -72,14 +76,14 @@ export default function Footer() {
         <div className={styles.bottom}>
           <p>© Copyright 2024. Tiyn.Uz 2024 All right reserved</p>
           <div className={styles.social}>
-            <a href="#">
-              <img src="/facebook.svg" alt="Facebook" />
+            <a href="https://t.me/tiyn_uz" target="blank_">
+            <FaTelegramPlane className={styles.iconssm}/>
             </a>
             <a href="#">
-              <img src="/twitter.svg" alt="Twitter" />
+              <FaInstagram className={styles.iconssm}/>
             </a>
             <a href="#">
-              <img src="/linkedin.svg" alt="LinkedIn" />
+              <FaFacebookSquare className={styles.iconssm}/>
             </a>
           </div>
         </div>
