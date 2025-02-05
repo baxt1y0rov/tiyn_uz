@@ -19,16 +19,12 @@ export default function ProductPromo() {
             <span>59</span>
             <span>Minutes</span>
           </div>
-          <div className={styles.stat}>
-            <span>35</span>
-            <span>Seconds</span>
-          </div>
         </div>
-        <button className={styles.buyBtn}>Buy Now!</button>
       </div>
       <div className={styles.image}>
         <img src="/speaker.png" alt="Bluetooth Speaker" />
       </div>
+        <button className={styles.buyBtn}>Buy Now!</button>
     </section>
   )
 }

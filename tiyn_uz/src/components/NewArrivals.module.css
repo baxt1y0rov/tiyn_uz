@@ -1,4 +1,4 @@
-.arrivals {
+.arrivals{
   padding: 4rem 0;
 }
 
@@ -104,7 +104,7 @@
 
 @media (max-width: 480px) {
   .grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .header h2 {
