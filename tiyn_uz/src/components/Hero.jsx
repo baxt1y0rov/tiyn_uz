@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1>
+        <h1 className={styles.herotext}>
           <span>Save big on</span>
           <span className={styles.highlight}>latest fashion trends</span>
           <span>with hundreds of top deals.</span>
