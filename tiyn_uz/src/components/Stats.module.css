@@ -21,3 +21,14 @@
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .stat h3 {
+    font-size: 1.5rem;
+  }
+}
+

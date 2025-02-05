@@ -15,7 +15,7 @@
 }
 
 .banner:first-child {
-  background-color:#dbf8db;
+  background-color: #dbf8db;
 }
 
 .banner:last-child {
@@ -53,5 +53,36 @@
   bottom: 0;
   max-width: 50%;
   height: auto;
+}
+
+@media (max-width: 1024px) {
+  .banners {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .content h3 {
+    font-size: 1.2rem;
+  }
+
+  .banner img {
+    max-width: 40%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h3 {
+    font-size: 1rem;
+  }
+
+  .banner img {
+    max-width: 30%;
+  }
+
+  .content button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
 }
 

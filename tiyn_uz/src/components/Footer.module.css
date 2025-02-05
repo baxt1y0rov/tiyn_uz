@@ -111,3 +111,44 @@
   height: 24px;
 }
 
+@media (max-width: 1024px) {
+  .top {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    grid-template-columns: 1fr;
+  }
+
+  .bottom {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .links {
+    grid-template-columns: 1fr;
+  }
+
+  .subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe input,
+  .subscribe button {
+    width: 100%;
+  }
+}
+
