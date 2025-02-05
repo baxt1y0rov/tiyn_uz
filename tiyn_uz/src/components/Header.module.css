@@ -3,6 +3,8 @@
   border-bottom: 1px solid #eee;
   backdrop-filter: blur(100px);
   background-color: #faf2ff;
+  position: relative;
+  z-index: 1000;
 }
 
 .container {
@@ -20,20 +22,13 @@
   gap: 0.5rem;
   font-size: 1.5rem;
   font-weight: bold;
+  z-index: 1001;
 }
-@media only screen and (max-width: 1400px){
-  .logo{
-    margin-left: 20px;
-  }
-}
-@media only screen and (max-width: 890px){
-  .nav a{
-    display: none;
-  }
-}
+
 .nav {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .nav a {
@@ -54,6 +49,83 @@
   font-weight: 500;
 }
 
-.tiynuz{
-  color:#5a297d;
+.tiynuz {
+  color: #5a297d;
 }
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+}
+
+.menuToggle span {
+  width: 30px;
+  height: 3px;
+  background: #5a297d;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+@media (max-width: 890px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #faf2ff;
+    padding: 2rem;
+    gap: 2rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    height: 100vh;
+  }
+
+  .nav.active {
+    transform: translateX(0);
+  }
+
+  .menuToggle {
+    display: flex;
+  }
+
+  .specialBtn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menuToggle span {
+    transition: all 0.3s linear;
+  }
+
+  .menuToggle.open span:first-child {
+    transform: rotate(45deg);
+  }
+
+  .menuToggle.open span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menuToggle.open span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .logo span {
+    font-size: 1.2rem;
+  }
+}
+
