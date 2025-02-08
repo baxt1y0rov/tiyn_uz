@@ -70,6 +70,12 @@
   }
 }
 
+@media (min-width: 800px) {
+  .image {
+    margin-bottom: -70px;
+  }
+}
+
 @media (max-width: 800px) {
   .promo {
     grid-template-columns: 1fr;

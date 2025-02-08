@@ -53,9 +53,14 @@
     font-size: 50px !important;
   }
 }
-
-
-
+@media only screen and (max-width: 380px){
+  .content{
+    width: 100vw !important;
+  }
+  .searchBar{
+    display: none !important;
+  }
+}
 
 
 .content h1 {
