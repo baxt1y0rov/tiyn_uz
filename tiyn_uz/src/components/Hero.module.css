@@ -58,7 +58,11 @@
     width: 100vw !important;
   }
   .searchBar{
-    display: none !important;
+    width: 80vw !important;
+    margin-right: 20px !important;
+  }
+  .herotext{
+    font-size: 40px !important;
   }
 }
 

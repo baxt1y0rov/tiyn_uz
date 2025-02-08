@@ -12,7 +12,7 @@ export default function Hero() {
         <button className={styles.shopBtn}>Shop Now</button>
         <div className={styles.searchBar}>
           <input type="text" placeholder="Search everything right here..." />
-          <button style={{fontWeight:650,backgroundColor:'#4a9a47',cursor:"pointer"}} type="submit">Search</button>
+          <button style={{fontWeight:650,backgroundColor:'#4a9a47',cursor:"pointer"}} type="submit">.</button>
         </div>
       </div>
       <div className={styles.image}>
