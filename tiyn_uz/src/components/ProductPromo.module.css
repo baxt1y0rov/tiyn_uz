@@ -28,6 +28,8 @@
 .stats {
   display: flex;
   gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .stat {
   width: 100px;
@@ -91,6 +93,9 @@
   .image img {
     max-width: 250px;
   }
+  .stats{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 480px) {
@@ -102,6 +107,12 @@
     flex-wrap: wrap;
     width: 50px;
     justify-content: center;
+  }
+  .buyBtn{
+    width: 70vw;
+  }
+  .stats{
+    grid-template-columns: 1fr 1fr;
   }
 }
 .image img {

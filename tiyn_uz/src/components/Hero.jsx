@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css"
+import { FaSearch } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -11,8 +12,8 @@ export default function Hero() {
         </h1>
         <button className={styles.shopBtn}>Shop Now</button>
         <div className={styles.searchBar}>
-          <input type="text" placeholder="Search everything right here..." />
-          <button style={{fontWeight:650,backgroundColor:'#4a9a47',cursor:"pointer"}} type="submit">.</button>
+          <input type="text" placeholder="Search..." />
+          <button style={{fontWeight:650,backgroundColor:'#4a9a47',cursor:"pointer"}} type="submit"><FaSearch style={{fontSize:13}}/></button>
         </div>
       </div>
       <div className={styles.image}>

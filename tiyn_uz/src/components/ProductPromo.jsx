@@ -19,6 +19,10 @@ export default function ProductPromo() {
             <span>59</span>
             <span>Minutes</span>
           </div>
+          <div className={styles.stat}>
+            <span>59</span>
+            <span>secs</span>
+          </div>
         </div>
       </div>
       <div className={styles.image}>
